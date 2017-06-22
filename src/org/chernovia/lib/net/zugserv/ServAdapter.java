@@ -1,4 +1,4 @@
-package org.chernovia.lib.netgames.zugserv;
+package org.chernovia.lib.net.zugserv;
 
 import java.io.PrintWriter;
 import java.util.ArrayList;

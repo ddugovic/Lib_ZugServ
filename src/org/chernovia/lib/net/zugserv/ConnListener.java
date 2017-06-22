@@ -1,4 +1,4 @@
-package org.chernovia.lib.netgames.zugserv;
+package org.chernovia.lib.net.zugserv;
 
 public interface ConnListener {
 	void newMsg(Connection conn, String msg);

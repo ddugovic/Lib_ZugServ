@@ -1,4 +1,4 @@
-package org.chernovia.lib.netgames.zugserv;
+package org.chernovia.lib.net.zugserv;
 
 import java.net.InetAddress;
 import java.util.Vector;
