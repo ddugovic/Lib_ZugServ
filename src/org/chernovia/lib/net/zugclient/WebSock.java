@@ -63,13 +63,13 @@ public class WebSock {
 
     @OnWebSocketMessage
     public void onMessage(String msg) {
-    	LOG.info(sock_name + "---> NEW MESSAGE: " + msg + "," + listeners.size());
+    	//LOG.info(sock_name + "---> NEW MESSAGE: " + msg + "," + listeners.size());
         for (WebSockListener l : listeners) l.sock_msg(this,msg);
     }
     
     @OnWebSocketFrame
     public void onFrame(Frame frame) {
-    	LOG.info(frame.toString());
+    	//LOG.info(frame.toString());
     }
     
     public String toString() {
